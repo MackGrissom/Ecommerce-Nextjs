@@ -215,8 +215,7 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #f02d34;
-  border-radius: 15px;
+  background-color: #000000;
   position: relative;
   height: 400px;
   line-height: 1; 
@@ -231,8 +230,8 @@ text-align: end;
 .banner-desc button{
   border-radius: 15px;
   padding: 10px 16px;
-  background-color: white;
-  color: red;
+  background-color: #f02d34;
+  color: black;
   border: none;
   margin-top: 40px;
   font-size: 18px;
