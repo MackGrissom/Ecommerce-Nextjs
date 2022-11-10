@@ -130,15 +130,13 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  /* background-color: #dcdcdc; */
-  background: rgb(232,143,9);
-  background: linear-gradient(90deg, rgba(232,143,9,1) 1%, rgba(0,0,0,0.22202384371717432) 100%);
+  background-color: #dcdcdc;
   border-radius: 15px;
   position: relative;
   height: 500px;
   line-height: 0.9; 
   width: 100%;
-opacity:99%;
+
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
@@ -169,10 +167,9 @@ opacity:99%;
 .hero-banner-image{
   position: absolute;
   top: 0%;
-  right: 0%;
-    width: 100%;
-    height: 500px;
-    z-index: -1;
+  right:20%;
+  width: 450px;
+  height: 450px;
 }
 
 
@@ -215,7 +212,8 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #000000;
+  background-color: #f02d34;
+  border-radius: 15px;
   position: relative;
   height: 400px;
   line-height: 1; 
@@ -230,8 +228,8 @@ text-align: end;
 .banner-desc button{
   border-radius: 15px;
   padding: 10px 16px;
-  background-color: #f02d34;
-  color: black;
+  background-color: white;
+  color: red;
   border: none;
   margin-top: 40px;
   font-size: 18px;
