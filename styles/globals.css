@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 html,
 body, * {
   padding: 0;
@@ -134,7 +136,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: antiquewhite;
+  background-color: #dcdcdc;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -252,8 +254,8 @@ text-align: end;
   position: absolute;
   /* top: -35%;
   left: 8%; */
-  top: -18%;
-  left: 21%;
+  top: -25%;
+  left: 25%;
 }
 .banner-desc .right{
   line-height: 1.4;
