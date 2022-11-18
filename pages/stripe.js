@@ -16,7 +16,7 @@ export default async function handler(req, res) {
                 ],
                 line_items: req.body.map((item) => {
                     const img = item.image[0].asset._ref;
-                    const newImage = img.replace('image-', 'https://cdn.sanitry.io/images/ikxhxo6u/production/').replace('-png', '.png');
+                    const newImage = img.replace('image-', 'https://cdn.sanitry.io/images/ikxhxo6u/production/')
 
                     return {
                         price_data: {

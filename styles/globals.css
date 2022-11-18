@@ -143,11 +143,14 @@ width: 100%;
   width: 100%;
 /* transparent orange colors */
 /* From https://css.glass */
-background: rgba(19, 19, 19, 0.19);
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(232, 143, 9, 0.11);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(13px);
--webkit-backdrop-filter: blur(13px);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+border: 1px solid rgba(232, 143, 9, 0.39);
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
@@ -229,12 +232,13 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #e88f09;
+  background: rgb(0,0,0);
+  background: linear-gradient(30deg, rgba(0,0,0,0.1407913507199755) 12%, rgba(232,143,9,0.28644961402529767) 97%);
   border-radius: 15px;
   position: relative;
   height: 400px;
   line-height: 1; 
-  color: white;
+  color: #e88f09;
   width: 100%;
   margin-top: 120px;
 }

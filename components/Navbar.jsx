@@ -4,6 +4,7 @@ import { AiOutlineShopping } from 'react-icons/ai'
 
 import { Cart } from './';
 import { useStateContext} from '../context/StateContext';
+import logo from '/home/mackgrissom/code/MackGrissom/raknarin-clothing/raknarinclothing/logo.png'
 
 const Navbar = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
@@ -11,6 +12,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
+        <image src={logo} />
         <Link href="/">Raknarin</Link>
       </p>
 
