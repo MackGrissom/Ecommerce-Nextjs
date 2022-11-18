@@ -135,13 +135,19 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
-  border-radius: 15px;
+  /* background-color: #b4b0b0; */
+  /* border-radius: 15px; */
   position: relative;
   height: 500px;
   line-height: 0.9; 
   width: 100%;
-
+/* transparent orange colors */
+/* From https://css.glass */
+background: rgba(19, 19, 19, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13px);
+-webkit-backdrop-filter: blur(13px);
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
@@ -180,6 +186,8 @@ width: 100%;
   width: 450px;
   height: 450px;
 }
+
+
 
 
 .desc{
@@ -535,7 +543,9 @@ padding: 30px 65px;
 }
 .quantity-desc{
   border: 1px solid gray;
-padding: 6px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
 }
 .quantity-desc span{
   font-size: 16px;
