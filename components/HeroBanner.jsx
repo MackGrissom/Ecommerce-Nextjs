@@ -23,6 +23,7 @@ const HeroBanner = ({ heroBanner }) => {
           </div>
         </div>
       </div>
+
     </div>
   )
 }
