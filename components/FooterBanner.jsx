@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-
+import { AiFillInstagram, AiFillMail } from 'react-icons/ai';
 import { urlFor } from '../lib/client';
 
 const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTime, smallText, midText, desc, product, buttonText, image } }) => {
@@ -14,17 +14,29 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
           <p>{saleTime}</p>
         </div>
         <div className="right">
-          {/* <p>{smallText}</p> */}
-          <h3>{midText}</h3>
-          <p>{desc}</p>
-          <Link href={`/product/${product}`}>
-            <button type="button" className=' hover:animate-bounce'>{buttonText}</button>
+           {/* <p>{smallText}</p>  */}
+           <h3>{midText}</h3>
+          <p>{desc}</p> 
+
+         
+          {/* <Link href='www.instagram.com/saintofthebeachofficial'>
+            <button type="button" className='flex footer-button'> Instagram
+            &nbsp;
+    <AiFillInstagram />
+    </button>
           </Link>
+          <Link href='mailto:support@raknarin.com'>
+            <button type="button" className='flex footer-button'> Contact Us
+            &nbsp;
+    <AiFillMail />
+    </button>
+          </Link> */}
         </div>
 
         <img 
           src={urlFor(image)} className="footer-banner-image"
         />
+
       </div>
     </div>
   )

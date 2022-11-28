@@ -10,7 +10,6 @@ body, * {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   box-sizing: border-box;
-
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -134,33 +133,8 @@ width: 100%;
 }
 
 
-/* Background dynamic */
 
-.background--custom {
-  background-color: #FFFFFF;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  overflow: hidden;
-  z-index: -2;
-  top: 0;
-  left: 0;
-}
-canvas#canvas {
-  z-index: -1;
-  position: absolute;
-  width: 100%;
-  height: 60%;
-  transform: rotate(-12deg) scale(2) translateY(-56%);
-  --gradient-color-1: #c42497; 
-  --gradient-color-2: #eeae4f; 
-  --gradient-color-3: #f3b204;  
-  --gradient-color-4: #0d7fb8;
-  --gradient-speed: 0.000006;
-}
-
-
-
+/* HERO BANNER */
 
 .hero-banner-container{
   padding: 100px 40px;
@@ -274,25 +248,31 @@ text-align: end;
 .banner-desc{
   display: flex ;
   justify-content: space-between;
+  color: #e88f09;
+  display: flex;
+  justify-content: space-evenly;
 }
 .banner-desc button{
   border-radius: 15px;
   padding: 10px 16px;
-  background-color: white;
-  color: red;
+  background-color: none;
+  color: #e88f09;
   border: none;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  width: -webkit-fill-available;
 }
 .banner-desc .left h3{
   font-weight: 900;
   font-size: 80px;
   margin-left: 25px;
+ color: white;
 }
 .banner-desc .left p{
   margin:18px;
+  
 }
 .footer-banner-image{
   position: absolute;
@@ -306,8 +286,9 @@ text-align: end;
   line-height: 1.4;
 }
 .banner-desc .right h3{
-  font-weight: 800;
+  font-weight: 400;
   font-size: 60px;
+  color: #e88f09;
 }
 .banner-desc .right p{
   font-size: 18px;
@@ -690,6 +671,15 @@ margin-top: 160px;
 
 }
 
+
+
+.video {   
+  object-fit: cover;   
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1; 
+}
 /* MEDIUM SCREEN RESPONSIVE DESIGN FOUND HERE  */
 @media screen and (max-width:800px) {
   .hero-banner-container{
@@ -846,9 +836,9 @@ margin-top: 160px;
     z-index: -1;
   }
   .hero-banner-image{
-    width: 70%;
+    width: 50%;
     height: 70%;
-    top: 29%;
+    top: 20%;
     right: 3%;
   }
   .footer-banner-container{
