@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sanity/client": "^3.2.0",
+    "@sanity/client": "^3.4.1",
     "@sanity/image-url": "^1.0.1",
     "@stripe/stripe-js": "^1.25.0",
     "canvas-confetti": "^1.5.1",
@@ -22,6 +22,7 @@
     "react-icons": "^4.3.1",
     "react-player": "^2.11.0",
     "react-tsparticles": "^2.5.3",
+    "sanity": "^2.33.2",
     "stripe": "^8.209.0"
   },
   "devDependencies": {
