@@ -3,14 +3,14 @@ import Link from 'next/link';
 import { urlFor } from '../lib/client';
 
 // import ReactPlayer from "react-player";
-// import vid0 from '/beachvid.mp4';
+import Vid0 from '/home/mackgrissom/code/MackGrissom/raknarin-clothing/raknarinclothing/assets/video/video.mp4'
 
 
 
 const HeroBanner = ({ heroBanner }) => {
   return (
     <div className="hero-banner-container">
-
+<video autoplay loop muted src={Vid0} />
       {/* < ReactPlayer
       url='https://www.pexels.com/video/waves-rushing-and-splashing-to-the-shore-1409899/'
         className="video"
